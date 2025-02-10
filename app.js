@@ -9,7 +9,9 @@ const port = 3000;
 app.get("api/bacheca", (req,res) => {
 
     const menu =[
-         { Titolo: "prova"}
+         {  name: "Ciambellone",
+            image: "imgs/bacheca/ciambellone.jpeg",
+         }
     ]
     res.json(menu)
 })
